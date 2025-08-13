@@ -1,0 +1,48 @@
+.image {
+  width: 44px;
+  height: 36px;
+  display: flex;
+  align-self: center;
+  margin-left: 8px;
+  background-color: gray;
+  border-radius: 4px;
+}
+.productContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: fit-content;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.leftSectionContainer {
+  display: flex;
+  gap: 8px;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: white;
+}
+.deleteButton {
+  align-self: flex-end;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  width: 200px;
+}
+.description {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 200px;
+}

@@ -1,0 +1,12 @@
+.searchAndSortContainer {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 0 0 16px 16px;
+}
+.searchInput {
+  border-radius: 8px;
+}
+.addButton {
+  color: white;
+}

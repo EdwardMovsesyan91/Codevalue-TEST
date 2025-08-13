@@ -1,0 +1,42 @@
+export const mocData = [
+  {
+    id: "1",
+    name: "Product 1",
+    description: "Product 1 description",
+    price: 100,
+    creationDate: "2025-08-13T17:53:56.331Z",
+    image: "1",
+  },
+  {
+    id: "2",
+    name: "Product 2",
+    description: "Product 2 description",
+    price: 200,
+    creationDate: "2025-08-13T17:53:56.331Z",
+    image: "2",
+  },
+  {
+    id: "3",
+    name: "Product 3",
+    description: "Product 3 description",
+    price: 300,
+    creationDate: "2025-08-13T17:53:56.331Z",
+    image: "3",
+  },
+  {
+    id: "4",
+    name: "Product 4",
+    description: "Product 4 description",
+    price: 400,
+    creationDate: "2025-08-13T17:53:56.331Z",
+    image: "4",
+  },
+  {
+    id: "5",
+    name: "Product 5",
+    description: "Product 5 description",
+    price: 500,
+    creationDate: "2025-08-13T17:53:56.331Z",
+    image: "5",
+  },
+];
